@@ -1,0 +1,15 @@
+
+html {
+    box-sizing: border-box;
+   background-color: var(--main-bg-color); 
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+    color: var(--text-default-color);
+}
+a:hover, a:focus{
+    color: var(--color-action-accent);
+}

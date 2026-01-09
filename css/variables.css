@@ -1,0 +1,173 @@
+:root {
+    /* =====================================
+     BASE COLOR TOKENS (DO NOT USE DIRECTLY)
+     ===================================== */
+
+    /* Backgrounds */
+    --color-bg-primary: #0B0F1A;
+    --color-bg-surface: #121826;
+
+    /* Brand / Actions */
+    --color-action-primary: #3B82F6;
+    --color-action-accent: #22D3EE;
+
+    /* Text */
+    --color-text-primary: #E5E7EB;
+    --color-text-secondary: #9CA3AF;
+
+    /* Borders */
+    --color-border-subtle: rgba(255, 255, 255, 0.08);
+
+    /* Feedback */
+    --color-success: #22c55e;
+    --color-warning: #facc15;
+    --color-error: #ef4444;
+
+
+
+
+    /* =====================================
+     SEMANTIC COLOR ALIASES (USE THESE)
+     ===================================== */
+
+    /* Background roles */
+    --bg-page: var(--color-bg-primary);
+    --bg-surface: var(--color-bg-surface);
+
+    /* Text roles */
+    --text-default: var(--color-text-primary);
+    --text-muted: var(--color-text-secondary);
+
+    /* Action roles */
+    --action-primary-bg: var(--color-action-primary);
+    --action-accent: var(--color-action-accent);
+    --action-primary-text: var(--color-bg-primary);
+
+    /* Border roles */
+    --border-default: var(--color-border-subtle);
+
+    /* Feedback roles */
+    --state-success: var(--color-success);
+    --state-warning: var(--color-warning);
+    --state-error: var(--color-error);
+
+
+    /* =====================================
+     INTERACTION STATES
+     ===================================== */
+
+    --action-primary-hover: #2563eb;
+    --action-primary-active: #1d4ed8;
+
+
+    /* =====================================
+   FOCUS TOKENS (ATOMIC)
+   ===================================== */
+
+    --focus-color: var(--action-accent);
+    --focus-width: 2px;
+    --focus-style: solid;
+    --focus-offset: 2px;
+
+
+
+    /* =====================================
+   FOCUS TOKEN (COMPOSED)
+   ===================================== */
+
+    --focus-ring-color: var(--action-accent);
+    --focus-ring: var(--focus-width) var(--focus-style) var(--focus-color);
+
+
+    /*========= 
+    Typography 
+    =========*/
+    --font-family-base: 'Inter', system-ui, sans-serif;
+
+    --font-size-base: 16px;
+    --font-size-sm: 0.875rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.5rem;
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+
+    --line-height-base: 1.6;
+    --line-height-tight: 1.25;
+
+
+
+    /* Spacing (8px system) */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 16px;
+    --space-4: 24px;
+    --space-5: 32px;
+    --space-6: 48px;
+
+    /* Layout */
+    --container-max-width: 1200px;
+    --container-padding: var(--space-3);
+
+    /* Border Radius & Elevation */
+    /* Shape */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+
+    /* Elevation */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+    /* Motion Tokens (Subtle but Senior) */
+    /* Motion */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+
+
+
+    /* ==============================
+   TYPOGRAPHY — FONT FAMILIES
+   ============================== */
+
+    --font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-family-heading: 'Inter', system-ui, sans-serif;
+
+   
+
+    /* ==============================
+   TYPOGRAPHY — FONT WEIGHTS
+   ============================== */
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+
+    /* ==============================
+       TYPOGRAPHY — LINE HEIGHTS
+       ============================== */
+
+    --line-height-tight: 1.25;
+    /* Headings */
+    --line-height-base: 1.6;
+    /* Body text */
+    --line-height-relaxed: 1.75;
+    /* Long-form content */
+
+
+    /* ==============================
+   TYPOGRAPHY — LETTER SPACING
+   ============================== */
+
+    --letter-spacing-tight: -0.01em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-wide: 0.05em;
+
+
+
+
+
+
+
+}
