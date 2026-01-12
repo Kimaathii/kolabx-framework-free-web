@@ -82,19 +82,16 @@
     /*========= 
     Typography 
     =========*/
-    --font-family-base: 'Inter', system-ui, sans-serif;
+    
 
+    --font-size-xs: 0.75rem;
     --font-size-base: 16px;
     --font-size-sm: 0.875rem;
     --font-size-lg: 1.125rem;
     --font-size-xl: 1.5rem;
-
-    --font-weight-regular: 400;
-    --font-weight-medium: 500;
-    --font-weight-semibold: 600;
-
-    --line-height-base: 1.6;
-    --line-height-tight: 1.25;
+    --font-size-2xl: 2rem;
+    --font-size-3xl: 2.5rem;
+    --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 
 
@@ -136,13 +133,7 @@
 
    
 
-    /* ==============================
-   TYPOGRAPHY — FONT WEIGHTS
-   ============================== */
-
-    --font-weight-regular: 400;
-    --font-weight-medium: 500;
-    --font-weight-semibold: 600;
+  
 
     /* ==============================
        TYPOGRAPHY — LINE HEIGHTS
@@ -163,6 +154,101 @@
     --letter-spacing-tight: -0.01em;
     --letter-spacing-normal: 0;
     --letter-spacing-wide: 0.05em;
+
+     /* ==============================
+         BREAKPOINTS
+         ============================== */
+     --breakpoint-xs: 480px;
+     --breakpoint-sm: 640px;
+     --breakpoint-md: 768px;
+     --breakpoint-lg: 1024px;
+     --breakpoint-xl: 1280px;
+     --breakpoint-2xl: 1536px;
+
+     /* ==============================
+         Z-INDEX SCALE
+         ============================== */
+     --z-base: 0;
+     --z-dropdown: 1000;
+     --z-sticky: 1100;
+     --z-fixed: 1200;
+     --z-modal-backdrop: 1300;
+     --z-modal: 1400;
+     --z-popover: 1500;
+     --z-tooltip: 1600;
+
+     /* ==============================
+         BORDER WIDTHS
+         ============================== */
+     --border-width-thin: 1px;
+     --border-width-medium: 2px;
+     --border-width-thick: 3px;
+
+     /* ==============================
+         OPACITY
+         ============================== */
+     --opacity-muted: 0.6;
+     --opacity-disabled: 0.4;
+     --opacity-overlay: 0.5;
+
+     /* ==============================
+         RADII — EXTRA
+         ============================== */
+     --radius-xl: 16px;
+     --radius-pill: 9999px;
+
+     /* ==============================
+         SHADOWS — EXTRA
+         ============================== */
+     --shadow-lg: 0 10px 24px rgba(0, 0, 0, 0.35);
+
+     /* ==============================
+         SPACING — EXTRA
+         ============================== */
+     --space-7: 64px;
+     --space-8: 80px;
+     --space-9: 96px;
+
+     /* ==============================
+         GAPS
+         ============================== */
+     --gap-sm: var(--space-2);
+     --gap-md: var(--space-3);
+     --gap-lg: var(--space-4);
+
+     /* ==============================
+         MOTION — EASING & DURATIONS
+         ============================== */
+     --transition-slow: 400ms ease;
+     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+     --ease-out: cubic-bezier(0, 0, 0.2, 1);
+     --ease-in: cubic-bezier(0.4, 0, 1, 1);
+
+     /* ==============================
+         LINKS
+         ============================== */
+     --link-color: var(--action-accent);
+     --link-hover: #06b6d4;
+
+     /* ==============================
+         ACCENT INTERACTIONS
+         ============================== */
+     --action-accent-hover: #06b6d4;
+
+     /* ==============================
+         FEEDBACK — BACKGROUNDS
+         ============================== */
+     --state-success-bg: rgba(34, 197, 94, 0.15);
+     --state-warning-bg: rgba(250, 204, 21, 0.15);
+     --state-error-bg: rgba(239, 68, 68, 0.15);
+
+     /* ==============================
+         OVERLAY & BLUR
+         ============================== */
+     --color-overlay: rgba(0, 0, 0, 0.6);
+     --blur-sm: 4px;
+     --blur-md: 8px;
+     --blur-lg: 16px;
 
 
 

@@ -1,15 +1,65 @@
+/* ==============================
+   RESET — WORLD STANDARD
+   ============================== */
 
-html {
+/* 1. Box sizing */
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-   background-color: var(--main-bg-color); 
 }
-*, *::before, *::after {
-    box-sizing: inherit;
+
+/* 2. Remove default margins */
+* {
+    margin: 0;
 }
-a{
+
+/* 3. Improve text rendering */
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+/* 4. Body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* 5. Media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 6. Form elements inherit font */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 7. Button reset */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* 8. Remove list styles */
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* 9. Anchor reset */
+a {
     text-decoration: none;
-    color: var(--text-default-color);
-}
-a:hover, a:focus{
-    color: var(--color-action-accent);
+    color: inherit;
 }

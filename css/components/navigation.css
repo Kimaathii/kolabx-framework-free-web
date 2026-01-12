@@ -1,0 +1,72 @@
+.site-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--gap-md);
+    background-color: var(--color-bg-surface);
+}
+.logo-image{
+    width: 120px;
+}
+.logo-image img{
+    width: 100%;
+    height: auto;
+}
+.nav-items {
+    display: none;
+}
+.mobile-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: var(--space-2);
+    background: transparent;
+    position: relative;
+}
+
+.hamburger-icon,
+.hamburger-icon::before,
+.hamburger-icon::after { 
+    width: 24px;
+    height: 2px;
+    background-color: var(--text-default);
+    transition: var(--transition-base);
+    position: absolute;
+
+}
+.hamburger-icon::after,
+.hamburger-icon::before { 
+    content: '';
+}
+
+.hamburger-icon::before {
+    transform: translateY(-8px);
+}
+
+.hamburger-icon::after {
+    transform: translateY(8px);
+}
+
+/* ADDED: Hover effect */
+.mobile-nav:hover .hamburger-icon,
+.mobile-nav:hover .hamburger-icon::before,
+.mobile-nav:hover .hamburger-icon::after {
+    background-color: var(--action-accent);
+}
+@media (min-width: 768px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .nav-items  {
+        display: flex;
+        color: var(--text-default);
+        gap: var(--space-4);
+    }
+    .nav-items a:hover { 
+        color: var(--action-accent);
+    }
+}
