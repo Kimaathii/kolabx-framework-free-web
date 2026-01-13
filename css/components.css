@@ -1,0 +1,22 @@
+.btn{
+    display: inline-block;
+    padding: var(--space-3) var(--space-5);
+    font-size: var(--font-size-base);
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    transition: var(--transition-fast);
+    border: var(--border-width-thin) solid transparent;
+}
+
+.btn-primary {
+    background-color: var(--action-primary-bg);
+    color: var(--action-primary-text);
+}
+
+.btn-primary:hover {
+    background-color: var(--action-primary-hover);
+}
+
+.btn-primary:active {
+    background-color: var(--action-primary-active);
+}

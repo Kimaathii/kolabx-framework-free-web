@@ -1,10 +1,11 @@
 .section{
     padding: var(--container-padding) 0;
+    margin: 0 auto;
 
 }
 .container{
     max-width: var(--container-max-width);
-    margin: 0 auto;
+    margin: auto 0;
     padding: 0 var(--container-padding);
 }
 .hero-section{
@@ -13,11 +14,14 @@
     align-self: center;
     justify-content: center;
     background: linear-gradient(135deg, var(--bg-page), var(--bg-surface));
-    text-align: end;
+    text-align: center;
 }
 .hero-title{
     font-size: 3.5rem;
     font-weight: 700;
     color: var(--text-default);
 
+}
+.hero-description{
+    color: var(--text-default);
 }
