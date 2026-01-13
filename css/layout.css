@@ -1,4 +1,23 @@
 .section{
-    display: flex;
-}
+    padding: var(--container-padding) 0;
 
+}
+.container{
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--bg-page), var(--bg-surface));
+    text-align: end;
+}
+.hero-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--text-default);
+
+}
