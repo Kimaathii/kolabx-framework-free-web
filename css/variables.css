@@ -125,7 +125,8 @@
 
 
     /* ==============================
-   TYPOGRAPHY — FONT FAMILIES
+   TYPOGRAPHY — 
+   FAMILIES
    ============================== */
 
     --font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
@@ -251,7 +252,14 @@
      --blur-lg: 16px;
 
 
-
+    /* ==============================
+        TYPOGRAPHY — FONT WEIGHTS
+        ============================== */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
 
 
 

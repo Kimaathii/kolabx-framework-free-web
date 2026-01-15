@@ -22,8 +22,12 @@ html {
 
 /* 4. Body defaults */
 body {
-    min-height: 100vh;
-    line-height: 1.5;
+        min-height: 100vh;
+        line-height: 1.5;
+        font-family: var(--font-family-base);
+        font-size: var(--font-size-base);
+        font-weight: var(--font-weight-normal);
+        color: var(--text-default);
 }
 
 /* 5. Media defaults */
